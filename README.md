@@ -1,6 +1,8 @@
 # cage-inventory
 Cage inventory system for ISTE Senior Project
 
+Team: Sarah Irons, Kevin Liu, Shawn Xu, Harsh Mathur, Mike Vasile, Alex K
+
 ---
 
 ### Local API setup
