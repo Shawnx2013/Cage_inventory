@@ -1,0 +1,7 @@
+.reservation-card-container {
+    background-color: #FFB082;
+    border-radius: 5px;
+    height: 80vh;
+    padding: 5px;
+    overflow: scroll;
+}

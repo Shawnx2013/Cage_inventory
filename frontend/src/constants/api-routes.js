@@ -1,0 +1,9 @@
+export const BASE_ROUTE = `http://${process.env.REACT_APP_API_HOST || 'localhost'}:3000/api`;
+export const ITEM_ROUTE = `${BASE_ROUTE}/item`;
+export const RESERVATION_ROUTE = `${BASE_ROUTE}/reservation`;
+export const CHECKOUT_ROUTE = `${BASE_ROUTE}/checkout`;
+export const LOCATION_ROUTE = `${BASE_ROUTE}/location`;
+export const USER_ROUTE = `${BASE_ROUTE}/user`;
+export const KIT_ROUTE = `${BASE_ROUTE}/kit`;
+export const EMAIL_ROUTE = `${RESERVATION_ROUTE}/email`;
+export const TAG_ROUTE  =`${BASE_ROUTE}/item-tag`;

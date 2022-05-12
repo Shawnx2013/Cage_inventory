@@ -1,0 +1,41 @@
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+    background: #000000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+h5.navigation-bar-item {
+    margin-bottom: 0;
+    margin-left: 15px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+h5.navigation-bar-item:hover {
+    cursor: default;
+}
+
+p.navigation-bar-item {
+    margin-left: auto;
+    margin-right: 15px;
+    margin-bottom: 0;
+    line-height: 50px;
+    color: #B0B0B0;
+    font-weight: 400;
+}
+p.navigation-bar-item:hover {
+    cursor: default;
+}
+
+.navigation-settings-icon {
+    height: 15px;
+}
+.navigation-hamburger-icon {
+    height: 15px;
+    margin-left: 15px;
+}
+.navigation-hamburger-icon, .navigation-settings-icon {
+    cursor: pointer;
+}
